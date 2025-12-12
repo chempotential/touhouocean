@@ -1,5 +1,6 @@
 body{
   font-family: 'Noto Sans JP';
+  margin: 0px;
 }
 
 header{
@@ -14,5 +15,30 @@ header{
     a{
       color: #ffffff;
     }
+  }
+}
+
+main{
+  margin-left: 50px;
+  margin-right: 50px;
+  article{
+    ul{
+      list-style-type: none;
+      li{
+        display: inline-block;
+        margin:10px;
+        a{
+          color: #00bdfe
+        }
+      }
+    }
+  }
+}
+
+footer{
+  background-color: #0073a8;
+  p{
+    color: #ffffff;
+    margin: 10px 50px 10px 50px;
   }
 }

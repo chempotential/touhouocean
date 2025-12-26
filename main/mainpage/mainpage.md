@@ -1,0 +1,1 @@
+mainpage images, icons, etc.

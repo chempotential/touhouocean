@@ -35,7 +35,9 @@ header{
 main{
   margin-left: 50px;
   margin-right: 50px;
-  .aboutme{
+}
+
+.aboutme{
     display: flex;
     h1{
       text-align: center;
@@ -45,17 +47,15 @@ main{
     }
     p{
       display: inline-block;
-      ul{
-        list-style-type: none;
-        a{
-          text-decoration: none;
-          color: #000000;
-        }
+    }
+    ul{
+      list-style-type: none;
+      a{
+        text-decoration: none;
+        color: #000000;
       }
     }
-  }
 }
-
 .profile{
   ul{
     list-style-type: none;
